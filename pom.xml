@@ -24,7 +24,7 @@
         <javax.activation.version>1.1.1</javax.activation.version>
         <mysql.connector.version>8.0.19</mysql.connector.version>
         <javax.servlet.api.version>4.0.1</javax.servlet.api.version>
-        <c3po.version>0.9.5.2</c3po.version>
+        <c3po.version>0.9.5.3</c3po.version>
         <spring.orm.version>5.2.5.RELEASE</spring.orm.version>
         <jstl.version>1.2</jstl.version>
     </properties>
