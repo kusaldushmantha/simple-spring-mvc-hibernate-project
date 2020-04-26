@@ -27,6 +27,7 @@
         <c3po.version>0.9.5.3</c3po.version>
         <spring.orm.version>5.2.5.RELEASE</spring.orm.version>
         <jstl.version>1.2</jstl.version>
+        <aspectj.weaver.aop.version>1.9.4</aspectj.weaver.aop.version>
     </properties>
 
     <dependencies>
@@ -97,6 +98,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
             <version>${spring.orm.version}</version>
+        </dependency>
+
+        <!--AspectJ dependencies for AOP-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.weaver.aop.version}</version>
         </dependency>
 
         <!--servlet dependencies-->
