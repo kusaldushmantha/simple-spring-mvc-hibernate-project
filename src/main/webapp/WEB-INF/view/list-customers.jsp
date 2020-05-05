@@ -38,6 +38,7 @@
 
                 <c:url var="updateLink" value="/customer/showFormForUpdate">
                     <c:param name="customerId" value="${tempCustomer.id}"/>
+                    <c:param name="customerName" value="${tempCustomer.firstName}${tempCustomer.lastName}"/>
                 </c:url>
 
                 <c:url var="deleteLink" value="/customer/deleteCustomer">
