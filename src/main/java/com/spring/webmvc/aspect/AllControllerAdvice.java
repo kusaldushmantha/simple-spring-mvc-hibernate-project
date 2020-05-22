@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.InitBinder;
 @ControllerAdvice
 public class AllControllerAdvice
 {
-    @InitBinder
-    public void initBinder( WebDataBinder dataBinder )
-    {
-        StringLowerCaseEditor lowerCaseEditor = new StringLowerCaseEditor();
-        dataBinder.registerCustomEditor( String.class, lowerCaseEditor );
-    }
+//    @InitBinder
+//    public void initBinder( WebDataBinder dataBinder )
+//    {
+//        StringLowerCaseEditor lowerCaseEditor = new StringLowerCaseEditor();
+//        dataBinder.registerCustomEditor( String.class, lowerCaseEditor );
+//    }
 }

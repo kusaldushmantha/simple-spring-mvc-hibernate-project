@@ -4,11 +4,10 @@ import java.beans.PropertyEditorSupport;
 
 public class StringLowerCaseEditor extends PropertyEditorSupport
 {
-
     @Override
     public String getAsText()
     {
-        return getValue().toString();
+        return getValue() != null ? getValue().toString() : "";
     }
 
     @Override
